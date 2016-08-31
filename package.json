@@ -1,0 +1,50 @@
+{
+  "name": "GamerBot-Game-Hearthstone",
+  "description": "Hearthstone API access for GamerBot",
+  "version": "0.0.1",
+  "author": "Shawn Sorichetti <ssoriche@gmail.com>",
+  "license": "MIT",
+
+  "keywords": "hubot, hubot-scripts, GamerBot, Hearthstone",
+  "engines" : { "node" : ">=4.5 <=6.4" },
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/GamerBot/GamerBot-Game-Hearthstone.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/GamerBot/GamerBot-Game-Hearthstone/issues"
+  },
+
+  "dependencies": {
+    "GamerBot-Game": "git+https://git@github.com/GamerBot/GamerBot-Game.git"
+  },
+
+  "peerDependencies": {
+    "hubot": "2.x"
+  },
+
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coffee-script": "^1.10.0",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-mocha-test": "~0.12.7",
+    "grunt-release": "~0.11.0",
+    "hubot": "2.x",
+    "hubot-test-helper": "^1.4.4",
+    "matchdep": "~0.3.0",
+    "mocha": "^3.0.2",
+    "nock": "^8.0.0",
+    "sinon": "^1.13.0",
+    "sinon-chai": "^2.7.0"
+  },
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "grunt test"
+  }
+}
