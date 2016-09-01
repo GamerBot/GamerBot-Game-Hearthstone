@@ -28,7 +28,7 @@ class Hearthstone extends Game
     return ['Battlenet']
 
 module.exports = (robot) ->
-  game = new Hearthstone robot, 'dtg'
+  game = new Hearthstone robot, 'hs'
 
   urlBase = 'https://omgvamp-hearthstone-v1.p.mashape.com'
 
