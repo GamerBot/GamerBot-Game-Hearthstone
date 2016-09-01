@@ -12,7 +12,7 @@
 # Author:
 #   Shawn Sorichetti <ssoriche@gmail.com>
 
-Game = require "gamerbot-game"
+Game = require "GamerBot-Game"
 
 class Hearthstone extends Game
   lfg: ->
